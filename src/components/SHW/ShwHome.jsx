@@ -25,7 +25,7 @@ const ShwHome = () => {
                FAQS - SEXUALLY TRANSMITTED INFECTIONS (STDS, STIS)
              </p>
              <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
-               Is anal sex safer than vaginal sex?
+               Is oral sex safer than vaginal sex?
              </h2>
            </div>
          </div>
@@ -52,5 +52,4 @@ const ShwHome = () => {
     </div>
   )
 }
-
 export default ShwHome

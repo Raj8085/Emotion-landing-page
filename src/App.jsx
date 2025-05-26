@@ -3,6 +3,9 @@
 
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
+import ArticleNews from "./components/SHW/ArticleNews";
+import STIArticlesLayout from "./components/SHW/ArticleSection";
 import ShwHome from "./components/SHW/ShwHome"
 import Home from "./Home"
 
@@ -2565,10 +2568,12 @@ const App = () => {
         {/* Main content grows to fill available height */}
         <div className="flex-grow">
           <Navbar/>
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shw" element={<ShwHome />} />
-
+            <Route path="/articles" element={<STIArticlesLayout />} />
+            <Route path="/articles/:slug" element={<ArticleNews/>} />
             {/* Redirect any unknown URL back to home */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

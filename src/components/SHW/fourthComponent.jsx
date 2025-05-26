@@ -187,5 +187,4 @@ const STILayout = () => {
     </div>
   );
 };
-
 export default STILayout;
