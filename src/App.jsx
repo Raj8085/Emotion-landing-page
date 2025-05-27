@@ -5,7 +5,9 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import ArticleNews from "./components/SHW/ArticleNews";
+import ArticleNewsTwo from "./components/SHW/ArticleNewsTwo";
 import STIArticlesLayout from "./components/SHW/ArticleSection";
+import ArticleSectionTwo from "./components/SHW/ArticleSectionTwo";
 import ShwHome from "./components/SHW/ShwHome"
 import Home from "./Home"
 
@@ -2574,6 +2576,8 @@ const App = () => {
             <Route path="/shw" element={<ShwHome />} />
             <Route path="/articles" element={<STIArticlesLayout />} />
             <Route path="/articles/:slug" element={<ArticleNews/>} />
+             <Route path="/articles-two" element={<ArticleSectionTwo/>} />
+        <Route path="/articles-two/:slug" element={<ArticleNewsTwo/>} />
             {/* Redirect any unknown URL back to home */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

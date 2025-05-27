@@ -896,11 +896,9 @@
 // //     </div>
 // //   );
 // // };
-
 // // export default STIArticlesLayout;
 
-
-import React from 'react';
+ 
 import { Link } from 'react-router-dom';
 import { articles } from './data/articles';
 
@@ -939,7 +937,6 @@ const ArticleCard = ({ category, title, subtitle, image, hasQuestionPattern }) =
     </div>
   </div>
 );
-
 const STIArticlesLayout = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -958,5 +955,4 @@ const STIArticlesLayout = () => {
     </div>
   );
 };
-
 export default STIArticlesLayout;
