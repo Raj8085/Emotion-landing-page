@@ -185,7 +185,7 @@ export const articleContentsTwo = {
     date: "Feb 01, 2016",
     updated: "Mar 14, 2025",
     content: `
-      <p>Depending on the STI and the type of sex you are having, tests for STIs are done in different ways. The tests for gonorrhea, chlamydia, and trichomoniasis are really simple; all you have to do is pee in a cup. Another way to test for these sexually transmitted infections (STIs) is a swab where you might have been exposed, for example the vagina or cervix, your throat, or your butt.</p>
+      <p>epending on the STI and the type of sex you are having, tests for STIs are done in different ways. The tests for gonorrhea, chlamydia, and trichomoniasis are really simple; all you have to do is pee in a cup. Another way to test for these sexually transmitted infections (STIs) is a swab where you might have been exposed, for example the vagina or cervix, your throat, or your butt.</p>
       <p>The tests for HIV, syphilis, hepatitis B, and hepatitis C involve testing a blood sample—this could be a finger prick for a few drops of blood or a full blood draw, depending on where you have your testing done. You can also get at-home tests for HIV and other STIs and use telehealth to get tested anonymously without leaving your house.</p>
       <p>You may want to be tested for other STIs, like herpes, depending on your symptoms; talk to a health care provider about whether other tests are a good idea.</p>
     `,
